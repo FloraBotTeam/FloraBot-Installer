@@ -2,7 +2,7 @@
 **FloraBot 的一键安装脚本**
 ## 目的
 * **为了解决繁琐的安装步骤**
-## 使用方法
+## 食用方法
 * **Windows: 下载 `WindowsInstaller.ps1` 文件, 将脚本移动至你想安装 FloraBot 的目录中, 右键选择 `使用 PowerShell 运行`**  
 * **Linux: 下载 `LinuxInstaller.sh` 文件, 将脚本移动至你想安装 FloraBot 的目录中, 无需 sudo 可直接运行**  
 ## 使用须知
