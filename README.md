@@ -6,11 +6,11 @@
 * **Windows: 进入你想安装 FloraBot 的目录中, 然后运行以下命令(请使用命令提示符(CMD)来运行):**  
 **GitHub 官方源:**  
 ```Shell
-curl -o WindowsInstaller.ps1 https://raw.githubusercontent.com/FloraBotTeam/FloraBot-Installer/main/WindowsInstaller.ps1 && powershell -File WindowsInstaller.ps1 && del WindowsInstaller.ps1
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/FloraBotTeam/FloraBot-Installer/main/WindowsInstaller.ps1" -OutFile "WindowsInstaller.ps1"; powershell -File WindowsInstaller.ps1; Remove-Item WindowsInstaller.ps1
 ```
 **GitHub 镜像源:**  
 ```Shell
-curl -o WindowsInstaller.ps1 https://github.moeyy.xyz/https://raw.githubusercontent.com/FloraBotTeam/FloraBot-Installer/main/WindowsInstaller.ps1 && powershell -File WindowsInstaller.ps1 && del WindowsInstaller.ps1
+Invoke-WebRequest -Uri "https://github.moeyy.xyz/https://raw.githubusercontent.com/FloraBotTeam/FloraBot-Installer/main/WindowsInstaller.ps1" -OutFile "WindowsInstaller.ps1"; powershell -File WindowsInstaller.ps1; Remove-Item WindowsInstaller.ps1
 ```
 * **Linux: 进入你想安装 FloraBot 的目录中, 然后运行以下命令:**  
 **GitHub 官方源:**  
