@@ -6,20 +6,20 @@
 * **Windows: 进入你想安装 FloraBot 的目录中, 然后运行以下命令:**  
 **GitHub 官方源:**  
 ```Shell
-wget -O LinuxInstaller.sh "https://raw.githubusercontent.com/FloraBotTeam/FloraBot-Installer/main/LinuxInstaller.sh" && ./LinuxInstaller.sh
-```
-**GitHub 镜像源:**  
-```Shell
-wget -O LinuxInstaller.sh "https://github.moeyy.xyz/https://raw.githubusercontent.com/FloraBotTeam/FloraBot-Installer/main/LinuxInstaller.sh" && ./LinuxInstaller.sh
-```
-* **Linux: 进入你想安装 FloraBot 的目录中, 然后运行以下命令:**  
-**GitHub 官方源:**  
-```Shell
 curl -O WindowsInstaller.ps1 https://raw.githubusercontent.com/FloraBotTeam/FloraBot-Installer/main/WindowsInstaller.ps1 && powershell -File WindowsInstaller.ps1
 ```
 **GitHub 镜像源:**  
 ```Shell
 curl -O WindowsInstaller.ps1 https://github.moeyy.xyz/https://raw.githubusercontent.com/FloraBotTeam/FloraBot-Installer/main/WindowsInstaller.ps1 && powershell -File WindowsInstaller.ps1
+```
+* **Linux: 进入你想安装 FloraBot 的目录中, 然后运行以下命令:**  
+**GitHub 官方源:**  
+```Shell
+wget -O LinuxInstaller.sh "https://raw.githubusercontent.com/FloraBotTeam/FloraBot-Installer/main/LinuxInstaller.sh" && ./LinuxInstaller.sh
+```
+**GitHub 镜像源:**  
+```Shell
+wget -O LinuxInstaller.sh "https://github.moeyy.xyz/https://raw.githubusercontent.com/FloraBotTeam/FloraBot-Installer/main/LinuxInstaller.sh" && ./LinuxInstaller.sh
 ```
 ## 使用须知
 * **Windows 用户使用一键安装脚本系统里需要有 PowerShell, 通常 Windows 10 以上系统已内置 PowerShell**  
