@@ -3,7 +3,7 @@
 ## 目的
 * **为了解决繁琐的安装步骤**
 ## 食用方法
-* **Windows: 进入你想安装 FloraBot 的目录中, 然后运行以下命令:**  
+* **Windows: 进入你想安装 FloraBot 的目录中, 然后运行以下命令(请使用命令提示符(CMD)来运行):**  
 **GitHub 官方源:**  
 ```Shell
 curl -O WindowsInstaller.ps1 https://raw.githubusercontent.com/FloraBotTeam/FloraBot-Installer/main/WindowsInstaller.ps1 && powershell -File WindowsInstaller.ps1
